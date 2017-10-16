@@ -7,7 +7,7 @@ file(GLOB_RECURSE files src/*.cpp include/*.h include/*.hpp )
 file(GLOB_RECURSE lib_rapidjson_files ${RAPIDJSON_INCLUDE_DIR}/* )
 file(GLOB_RECURSE lib_argument_files ${ARGUMENTS_INCLUDE_DIR}/* )
 
-include_directories(include ${LASZIP_INCLUDE_DIRS})
+include_directories(include ${LASZIP_INCLUDE_DIR})
 include_directories(include ${RAPIDJSON_INCLUDE_DIR})
 include_directories(include ${ARGUMENTS_INCLUDE_DIR})
 
